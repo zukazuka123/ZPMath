@@ -1,8 +1,8 @@
-/* Copyright (C) Zurab Phertsuliani - All Rights Reserved
- * Unauthorized copying of this file, via any medium is strictly prohibited
- * Proprietary and confidential
- * Written by Zurab Phertsuliani <zukazuka314@gmail.com>
- */
+#* Copyright (C) Zurab Phertsuliani - All Rights Reserved
+#* Unauthorized copying of this file, via any medium is strictly prohibited
+#* Proprietary and confidential
+#* Written by Zurab Phertsuliani <zukazuka314@gmail.com>
+
 import cmath, time, platform, subprocess, sympy
 try:
     command = ""
@@ -48,13 +48,13 @@ try:
         print("The x-intercept's coordinates are: ",(x1,0),(x2,0))
         print("The y-intercept's coordinates are: ",(0,c))
         print("The vertex's coordinates are: ",((vertex),(a*vertex**2+b*vertex+c)))
-        sympy.plot(expression)
         if type(x1) and type(x2) == "int":
             print("Domain : {}".format(real))
         elif type(x1) and type(x2) == "float":
             print("Domain : {}".format(decimal))
         else:
             print("Domain : {}".format(complx))
+        sympy.plot(expression)
 
 
     def launch():
