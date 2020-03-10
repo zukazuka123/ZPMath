@@ -15,6 +15,6 @@ pip3 install sympy
 python3 ZPMath.py
 ``` 
 ## Update
-I'm currentry working to make this program more powerful and fast
+I'm currentry working to make this program more powerful and faster
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
