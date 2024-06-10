@@ -1,4 +1,4 @@
-ZPMath is a cross-platform Python program developped by Zurab Phertsuliani (zukazuka314@gmail.com) for analyzing and solving:
+ZPMath is a cross-platform Python program developped by Zurab Phertsuliani (zurab.pertsuliani23@gmail.com) for analyzing and solving:
 - Linear equation
 - Quadratic equations
 ## Requirements
