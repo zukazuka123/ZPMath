@@ -153,4 +153,22 @@ def main():
             elif choice == '3':
                 cubiceq()
             elif choice == '4':
-         
+                print("Exiting the program. Goodbye!")
+                break
+            else:
+                print(f"Invalid choice: {choice}. Please try again.")
+            input("\nPress Enter to return to the menu...")
+    except KeyboardInterrupt:
+        print("\nProgram interrupted. Exiting.")
+    except ZeroDivisionError:
+        print("\nError: Division by zero is not allowed.")
+    except TypeError:
+        print("\nError: Invalid operation encountered.")
+    except ValueError:
+        print("\nError: Invalid input provided.")
+    finally:
+        time.sleep(2)
+
+if __name__ == "__main__":
+    main()
+
